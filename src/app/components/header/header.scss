@@ -1,0 +1,7 @@
+@use 'sass:map';
+@use '../../../theme-colors.scss' as theme;
+
+.style-header {
+  background-color: theme.color(primary, 70);
+  height: auto;
+}

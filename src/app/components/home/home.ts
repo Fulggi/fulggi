@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { Body } from '../body/body';
 import { Header } from '../header/header';
 import { Footer } from '../footer/footer';
+import { Content } from '../content/content';
 
 @Component({
   selector: 'app-home',
   imports: [ Header,
-             Body,
+             Content,
              Footer 
   ],
   templateUrl: './home.html',

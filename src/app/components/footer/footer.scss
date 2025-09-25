@@ -1,0 +1,7 @@
+@use 'sass:map';
+@use '../../../theme-colors.scss' as theme;
+
+.style-footer {
+  background-color: theme.color(tertiary, 90); 
+  height: 100px;
+}   

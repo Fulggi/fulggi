@@ -1,0 +1,7 @@
+@use 'sass:map';
+@use '../../../theme-colors.scss' as theme;
+
+.content {
+  background-color: theme.color(primary, 90);
+  padding: 20px;
+}
